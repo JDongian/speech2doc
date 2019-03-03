@@ -13,6 +13,10 @@
 # CONDITIONS OF ANY KIND, either express or implied. See the License for the
 # specific language governing permissions and limitations under the License.
 """Example to convert audio URI to polished transcript file.
+
+The basic program idea is to convert the audio to a JSON transcript.
+Then, using a templater, create a simple markdown file.
+Finally, use pandoc to convert the markdown file to a docx.
 """
 from argparse import ArgumentParser
 import re
