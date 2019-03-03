@@ -33,7 +33,7 @@ API_KEY = os.environ.get('REVAI_API_KEY')
 
 
 def _init_args():
-    parser = ArgumentParser(description="Invert text normalization.")
+    parser = ArgumentParser(description="Convert audio to docx transcript.")
     parser.add_argument(
         'input',
         type=str,
