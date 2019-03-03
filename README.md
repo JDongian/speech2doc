@@ -23,6 +23,8 @@ REVAI_API_KEY=YOUR_API_KEY_FROM_REV.AI_HERE python test.py https://www.rev.ai/FT
 
 This may take a minute or two. After it finishes, open `sample.docx` with your preferred document viewer.
 
+See `example_output` directory for some sample outputs.
+
 
 ## License
 
